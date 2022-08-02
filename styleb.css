@@ -1,0 +1,461 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: white;
+    height:80px;
+    border-bottom: 1px dotted rgb(117, 116, 116);
+    width: 100%;
+    }
+nav {
+    display:flex;
+
+padding :1px 0.5%;
+}
+    .logo{
+        display:flex;
+       
+        
+    }
+    .logo img{
+        width:120px;
+        height:50px;
+        margin-left: 40px;
+        margin-top:10px;
+    }
+    .logo a{
+        display: flex;
+        text-decoration:none; 
+    }
+    .logo a label{
+        padding-top:45px;
+        padding-right: 20px;
+        color:rgb(216, 46, 103);
+        font-size: 25px;
+        width:85px;
+        height:100px;
+
+    }
+ 
+.mainbox{
+    margin-left: 5%;
+    margin-top:4%;
+    margin-right: 4.5%;
+    display:flex;
+    flex-direction: column;
+}
+.request{
+    font-size: 200%;
+    display:flex;
+    flex-direction:row;
+    position:relative;
+     width: 100%;
+ }
+ .request a{
+     margin-right:2px;
+ }
+ .request img{
+     width:15px;
+     height:auto;
+     margin-top: 11px;
+     margin-right: 15px;
+ }
+.detail{
+    
+    padding-top: 23px;
+    position:relative;
+     width: 100%;
+    display:flex;
+    flex-direction: row; 
+}
+.subbox1{
+    
+    position:relative;
+     width:59%;
+   
+        display:flex;
+        flex-direction: column; 
+    
+}
+
+.mainform
+    {
+font-size: 115%;
+        padding-top: 13px;
+        display:flex;
+       
+        flex-direction: column; 
+    }
+.your{
+    border:none;
+    padding-top: 13px;
+    display:flex;
+    flex-direction: column; 
+    border-bottom: 1px dotted rgb(117, 116, 116);
+    padding-bottom: 23px;
+}
+.date{
+    padding-top: 5px;
+    display:flex;
+    flex-direction:row; 
+
+}
+.box3{
+    font-size:85%;
+    width:94%;
+}
+.box{
+    font-size:85%;
+    width:94%;
+    
+    display:flex;
+    flex-direction: column; 
+}
+
+.box input{
+    padding-top:8px;
+    font-size:85%;
+    border:none;
+}
+.box1{
+    display:flex;
+    flex-direction: row; 
+    font-size:85%;
+    
+}
+.box1 a{
+    color: black;
+ 
+}
+.box1 img{
+    width:30px;
+    margin:0 10px;
+    cursor:pointer;
+    border-radius:50%;
+}
+.box4 img{
+    width:50px;
+    height:auto;
+    margin:0 12px;
+   border-radius:50%;
+}
+.box5 img{
+    border-radius:7px;
+    width:80px;
+    height:90px;
+    margin:0 12px;
+    
+}
+.guest{
+    padding-top: 13px;
+    display:flex;
+    flex-direction:row; 
+
+}
+.pay{
+    padding-top: 21px;
+    display:flex;
+    flex-direction: column; 
+    border-bottom: 1px dotted rgb(117, 116, 116);
+    padding-bottom: 23px;
+}
+.optionchoose{padding-top: 10px;
+
+}
+.pay select{
+    height:42px;
+    text-align:start;
+    width:100%;
+    border-color: rgb(117, 116, 116);
+   
+    border-radius: 4px;
+}
+.block{
+    
+    display:flex;
+    flex-direction:row; 
+
+}
+.coupon{
+    padding-top: 23px;
+    font-size:85%;
+
+}
+
+.coupon a {
+    color: black;
+    
+}
+.require{
+    padding-bottom:35px;
+    padding-top:23px;
+    display: flex;
+    flex-direction: column;
+    border-bottom:1px dotted rgb(117, 116, 116);
+}
+.require label{
+    
+    font-size: 115%;
+
+}
+
+.message{
+    padding-top: 21px;
+    
+   padding-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.message label{
+  
+    font-size:85%;
+}
+.message p{
+   
+    padding-top: 9px;
+    font-size:85%;
+}
+.name{
+   
+    padding-top:16px;
+    display: flex;
+    flex-direction: row;
+    font-size:85%;
+    padding-bottom: 23px;
+
+}
+.image1{
+    width:30px;
+    margin:0 12px;
+   
+    border-radius:50%;
+
+}
+i{
+    width:100%;
+}
+
+textarea{
+    width:95%; 
+    height: 100px;
+    border: 1px solid grey;
+    border-radius: 4px;
+
+}
+.cancelp{
+    padding-top:28px;
+    font-size:85%;
+padding-bottom:28px;
+border-bottom:1px dotted rgb(117, 116, 116);
+
+}
+
+.cancelp p{
+padding-top:24px;
+    
+font-size:85%;
+    
+}
+.cancelp a{
+    color:black;
+}
+.reservation{
+    padding-top:28px;
+    display: flex;
+    flex-direction: row;
+    font-size:85%;
+    padding-bottom: 28px;
+    border-bottom:1px dotted rgb(117, 116, 116);
+}
+.agree{
+    padding-top:28px;
+    font-size: 65%;
+    padding-bottom: 28px;
+    
+}
+.agree a{
+  color:black;  
+}
+button{
+    width:29%;
+    height:auto;
+    color:white;
+    padding:10px 2px;
+    cursor: pointer;
+    font-size:85%;
+    background:#f5071f;
+    border:0;
+ outline:none;
+ border-radius: 4px;
+}
+.mainbox{
+    padding-bottom: 70px;
+}
+.end{ width:98.80%;
+    margin-left: 6px;
+   background-color: rgb(194, 186, 186);
+    display:flex;
+    flex-direction: row;
+    font-size: 89%;
+}
+
+.end span{
+  
+    padding-top: 10px;
+    padding-left: 20px;
+   
+   
+}
+.end ul li{
+    
+    
+   margin-left:20px;
+}
+.end  ul{float:left;
+    line-height: 10px;
+    font-size:89%;
+    padding-top: 10px;
+    padding-left: 20px;
+
+    width:70%;
+    
+    display: flex;
+    flex-direction:row ;
+}
+.end img{
+    width:15px;
+    height:auto;
+    margin:0 12px;
+    cursor:pointer;
+    border-radius:50%;
+}
+
+.subbox2{
+    border:1px solid rgb(117, 116, 116);
+    border-radius: 10px;
+    margin-left: 56%;
+    position:fixed;
+    
+     height: auto;
+     display:flex;
+    flex-direction: column; 
+     
+    width:34.5%;
+   
+}
+
+.priced{
+    padding:2%;
+}
+.info{
+    padding-top:2%;
+    display: flex;
+    flex-direction: row;
+    font-size: 97%;
+    padding-bottom: 16px;
+    border-bottom:1px dotted rgb(117, 116, 116);
+}
+.cal {
+    font-size: 55%;
+    padding-bottom: 5%;
+   width:100%;
+    border-bottom:1px dotted rgb(117, 116, 116);
+}
+
+.cal a{
+    color: black;
+}
+
+.ti{padding-top:3%;
+ width:80%;}
+
+.cal2 {
+    font-size: 55%;
+    padding-top:5%;
+    padding-bottom:7%; 
+    width:100%;
+    
+}
+.cal2 td{
+    width:80%;
+}
+
+.price{
+    padding-right: 5%;
+    padding-left:5%;
+    font-size: 160%;
+}
+
+
+.footer
+{
+    width:100%;
+    height:500px;
+    margin-top: 20px;
+    padding-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(245, 240, 240);
+}
+.o_list{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+.o_list li{
+    margin: 25px;
+    color: black;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.o_list li a:link{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+.end{
+    width:1200px;
+    align-self: center;
+    margin-left: 35px;
+    padding-top: 35px;
+    border-top: 1px solid rgb(207, 205, 205);
+    display: inline-block;
+}
+.btn1{
+    width: 200px;
+    margin-left: 70px;
+    margin-top:90px;
+    padding :10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size :16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.fa-solid 
+{
+    font-size: 20px;
+    width: 20px;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 40px;
+    color:black;
+    text-decoration: none;
+}
+
+.end p{
+    width:500px;
+}
+.end a{
+  float: right;
+}
+  

@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header{
+    
+    height:75px;
+    
+    width: 100%;
+    }
+nav {
+    display:flex;
+
+padding :1px 0.5%;
+}
+    .logo{
+        display:flex;
+       
+        
+    }
+    .logo img{
+        width:120px;
+        height:50px;
+        margin-left: 40px;
+        margin-top:10px;
+
+    }
+    .logo a{
+        display: flex;
+        text-decoration:none; 
+    }
+    .logo a label{
+        padding-top:45px;
+        padding-right: 20px;
+        color:rgb(216, 46, 103);
+        font-size: 25px;
+        width:85px;
+        height:100px;
+
+    }
+    .host-list{
+        
+        display:flex;
+        
+        align-content:right;
+       margin-left: 20%;
+        padding :5px;
+        width: 100%;
+        height: 29px;
+       
+    }
+    .host{  margin-left: 38%;
+         margin-right: 2%;
+         text-align: right;
+         width:50%;
+           
+    }
+.host a{
+  
+    color:black;
+    font-size:16px;
+    line-height: 20px;
+    text-decoration:none; 
+    font:bold;
+
+}
+.host a:hover{text-decoration:underline;}
+.sign{   
+    text-align: right;
+    width:20%; }
+.sign a{
+    color: black;
+    border-radius:32px;
+    background:transparent;
+    font-size:16px;
+    line-height: 20px;
+    text-decoration:none; 
+    font:bold;
+    }
+
+.sign a:hover{text-decoration:underline}
+
+.login{
+  
+    height:auto;
+    width:100%;
+    background-size: contain;
+    background-position:center;
+    position:absolute;
+
+
+}
+.box1{
+
+    width:50%;
+    height:50%;
+    position:relative;
+    margin-top: 2%;
+    margin-left:25%;
+    background:#fff;
+    overflow: hidden;
+    border:none;
+    border-radius: 14px;
+    box-shadow: grey 3px 3px 8px 5px;
+    
+}
+.box2{
+    width:100%;
+    
+    border-radius: 30px;
+
+}
+
+.social{
+    margin:11px auto;
+    text-align:center;
+    margin-bottom: 7%;
+}
+.social img{
+    width:30px;
+    margin:0 12px;
+    cursor:pointer;
+    border-radius:50%;
+   
+}
+
+
+.form1{
+    padding-left:16px;
+    top:114px;
+    position:absolute;
+   
+    transition:.5s;
+
+}
+h3{
+   
+    text-align: center;
+}
+.option{
+    font-size: 14px;
+    text-align: center;
+    border-left:0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom:1px dotted  black;
+    outline:none;
+    background: transparent;
+    padding:20px;
+}
+.welcome{
+    padding-bottom: 5px;
+    padding-top:25px;
+    padding-left:10px;
+    padding-right:10px;
+    text-align: left ;
+    font-size: 13px;
+}
+.number input{
+    border-bottom:1px solid  black;
+}
+.number{
+
+    
+    padding-top:20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.c{border:1px solid  black;
+    border-radius: 10px; 
+    }
+    .country{height:50px;
+align-content: center;
+font-size: 16px;
+    }
+.country select{
+    width:100%;
+   
+    font-size: 18px;
+    padding :10px 0;
+    margin-top:1px;
+   margin-bottom: 0;
+    border:none;
+    outline:none;
+    background: transparent;
+
+}
+legend{
+    text-align: center;
+}
+fieldset{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.nofield {
+    height:50px;
+    width:100%;
+    font-size: 20px;
+    padding :20px 0;
+    margin-top:10px;
+   margin-bottom: 0;
+   border-top:1px solid  black;
+   border-bottom: none;
+   border-left: none;
+   border-right: none;
+    outline:none;
+    background: transparent;
+}
+
+.submitbtn{
+    width:100%;
+    padding:10px 30px;
+    cursor: pointer;
+    display:block;
+    
+    margin: 20px auto;
+    background:#f51027;
+    border:0;
+ outline:none;
+ border-radius: 10px;
+}
+
